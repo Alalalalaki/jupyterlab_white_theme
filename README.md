@@ -2,8 +2,7 @@
 
 ![Github Actions Status](https://github.com/Alalalalaki/jupyterlab_white_theme/workflows/Build/badge.svg)
 
-A white theme for jupyterlab.
-
+A white and minimalism theme for jupyterlab, modified from [jupyterlab_legos_ui](https://github.com/dunovank/jupyterlab_legos_ui).
 
 ## Requirements
 
