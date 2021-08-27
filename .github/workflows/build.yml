@@ -22,7 +22,7 @@ jobs:
         python-version: '3.7'
         architecture: 'x64'
     - name: Install dependencies
-      run: python -m pip install jupyterlab==3 jupyter_packaging nodejs
+      run: python -m pip install jupyterlab==3 jupyter_packaging
     - name: Build the extension
       run: |
         jlpm

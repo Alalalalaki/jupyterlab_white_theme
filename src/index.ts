@@ -13,9 +13,8 @@ const extension: JupyterFrontEndPlugin<void> = {
   requires: [IThemeManager],
   autoStart: true,
   activate: (app: JupyterFrontEnd, manager: IThemeManager) => {
-    console.log('JupyterLab extension @alalalalaki/jupyter-white-theme is activated!');
+    //console.log('JupyterLab extension @alalalalaki/jupyter-white-theme is activated!');
     const style = '@alalalalaki/jupyter-white-theme/index.css';
-
     manager.register({
       name: '@alalalalaki/jupyter-white-theme',
       isLight: true,

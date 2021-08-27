@@ -5,7 +5,8 @@
   "keywords": [
     "jupyter",
     "jupyterlab",
-    "jupyterlab-extension"
+    "jupyterlab-extension",
+    "jupyterlab-theme"
   ],
   "homepage": "https://github.com/Alalalalaki/jupyterlab_white_theme",
   "bugs": {
