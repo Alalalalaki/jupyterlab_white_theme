@@ -2,7 +2,7 @@
 
 ![Github Actions Status](https://github.com/Alalalalaki/jupyterlab_white_theme/workflows/Build/badge.svg)
 
-A white and minimalism theme for jupyterlab, modified from [jupyterlab_legos_ui](https://github.com/dunovank/jupyterlab_legos_ui).
+A white and minimalism theme for jupyterlab, modified from [jupyterlab_legos_ui](https://github.com/dunovank/jupyterlab_legos_ui0) and built on [theme-cookiecutter](https://github.com/jupyterlab/theme-cookiecutter).
 
 This theme uses 'Futura' for ui font, 'Operator Mono' or 'JetBrains Mono' for code font, and 'Inter' or 'HK Grotesk' for content font.
 
@@ -16,7 +16,12 @@ This theme uses 'Futura' for ui font, 'Operator Mono' or 'JetBrains Mono' for co
 pip install jupyterlab_white_theme
 ```
 
-## Contributing
+### Uninstall
+
+```bash
+pip uninstall jupyterlab_white_theme
+jupyter labextension uninstall @alalalalaki/jupyter-white-theme
+```
 
 ### Development install
 
@@ -52,13 +57,6 @@ By default, the `jlpm run build` command generates the source maps for this exte
 
 ```bash
 jupyter lab build --minimize=False
-```
-
-### Uninstall
-
-```bash
-pip uninstall jupyterlab_white_theme
-jupyter labextension uninstall @alalalalaki/jupyter-white-theme
 ```
 
 ### Publish
