@@ -58,3 +58,10 @@ jupyter lab build --minimize=False
 pip uninstall jupyterlab_white_theme
 jupyter labextension uninstall @alalalalaki/jupyter-white-theme
 ```
+
+### Publish
+
+```bash
+conda create -n jupyterlab-white-theme -c conda-forge jupyterlab jupyter-packaging twine nodejs && conda activate jupyterlab-white-theme
+python setup.py sdist bdist_wheel && twine upload dist/*
+```
