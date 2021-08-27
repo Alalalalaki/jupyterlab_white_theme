@@ -8,6 +8,8 @@ A white and minimalism theme for jupyterlab, modified from [jupyterlab_legos_ui]
 
 * JupyterLab >= 3.0
 
+This theme requires fonts of 'Futura' (ui), 'Operator Mono' or 'JetBrains Mono' (code), and 'Inter' or 'HK Grotesk' (content).
+
 ## Install
 
 ```bash
