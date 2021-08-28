@@ -448,7 +448,7 @@ all of MD as it is not optimized for dense, information rich UIs.
     line-height: var(--jp-private-menubar-height);
 	  background: var(--jp-layout-color4);
 }
-.p-Menu-item:hover {
+.p-Menu-item:not([data-type="separator"]):hover {
     color: var(--jp-ui-inverse-font-color1);
     background: var(--jp-brand-color1);
 }
